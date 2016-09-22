@@ -1,0 +1,23 @@
+{
+	"extends": "airbnb",
+	"ecmaFeatures": {
+	  "jsx": true,
+	  "modules": true
+	},
+	"env": {
+	  "browser": true,
+	  "node": true
+	},
+	"rules": {
+		"indent": [2, "tab"],
+		"comma-dangle": 0,
+		"no-unused-vars": [1, {"vars": "local", "args": "none"}],
+		"no-else-return": 0,
+		"new-cap": 0,
+		"no-console": 0
+	},
+  "plugins": [
+    "babel",
+    "react"
+  ]
+}
